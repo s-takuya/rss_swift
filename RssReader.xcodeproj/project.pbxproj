@@ -10,6 +10,8 @@
 		76B5C55671506A4FA28AD8FC /* Pods_RssReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EEDBBBFF52365A48DF6E86 /* Pods_RssReader.framework */; };
 		BA3702E41D51BB120054DCF0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3702E21D51BB120054DCF0 /* TableViewController.swift */; };
 		BA3702E51D51BB120054DCF0 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3702E31D51BB120054DCF0 /* TableViewController.xib */; };
+		BA3702E81D51BE4A0054DCF0 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3702E61D51BE4A0054DCF0 /* FeedTableViewCell.swift */; };
+		BA3702E91D51BE4A0054DCF0 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3702E71D51BE4A0054DCF0 /* FeedTableViewCell.xib */; };
 		BA8C96931D51B6E900F34E2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8C96921D51B6E900F34E2C /* AppDelegate.swift */; };
 		BA8C96951D51B6E900F34E2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8C96941D51B6E900F34E2C /* ViewController.swift */; };
 		BA8C96981D51B6E900F34E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8C96961D51B6E900F34E2C /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 		1157F57263E6048990AD2089 /* Pods-RssReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RssReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-RssReader/Pods-RssReader.release.xcconfig"; sourceTree = "<group>"; };
 		BA3702E21D51BB120054DCF0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		BA3702E31D51BB120054DCF0 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		BA3702E61D51BE4A0054DCF0 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		BA3702E71D51BE4A0054DCF0 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 		BA8C968F1D51B6E900F34E2C /* RssReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RssReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8C96921D51B6E900F34E2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA8C96941D51B6E900F34E2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				BA8C96991D51B6E900F34E2C /* RssReader.xcdatamodeld */,
 				BA3702E21D51BB120054DCF0 /* TableViewController.swift */,
 				BA3702E31D51BB120054DCF0 /* TableViewController.xib */,
+				BA3702E61D51BE4A0054DCF0 /* FeedTableViewCell.swift */,
+				BA3702E71D51BE4A0054DCF0 /* FeedTableViewCell.xib */,
 			);
 			path = RssReader;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8C96A01D51B6E900F34E2C /* LaunchScreen.storyboard in Resources */,
+				BA3702E91D51BE4A0054DCF0 /* FeedTableViewCell.xib in Resources */,
 				BA8C969D1D51B6E900F34E2C /* Assets.xcassets in Resources */,
 				BA8C96981D51B6E900F34E2C /* Main.storyboard in Resources */,
 				BA3702E51D51BB120054DCF0 /* TableViewController.xib in Resources */,
@@ -345,6 +352,7 @@
 				BA8C969B1D51B6E900F34E2C /* RssReader.xcdatamodeld in Sources */,
 				BA8C96931D51B6E900F34E2C /* AppDelegate.swift in Sources */,
 				BA3702E41D51BB120054DCF0 /* TableViewController.swift in Sources */,
+				BA3702E81D51BE4A0054DCF0 /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
