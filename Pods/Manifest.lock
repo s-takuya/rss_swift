@@ -1,6 +1,9 @@
 PODS:
   - Alamofire (3.4.1)
   - PageMenu (1.2.9)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
   - SwiftyJSON (2.3.2)
   - TOWebViewController (2.2.6):
     - TOWebViewController/Core (= 2.2.6)
@@ -9,15 +12,17 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - PageMenu
+  - SDWebImage
   - SwiftyJSON
   - TOWebViewController
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
   PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   TOWebViewController: a29908019f7e0e0f8eccfab8a1ee8dcdf4fc5aac
 
-PODFILE CHECKSUM: 98b4c6d315566af7ce23877ea3f3aed5627d9b77
+PODFILE CHECKSUM: 8d509e9a3f45793f4f712b52246135080d050947
 
 COCOAPODS: 1.0.1

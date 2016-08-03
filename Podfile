@@ -7,4 +7,5 @@ target 'RssReader' do
  pod 'Alamofire'
  pod 'SwiftyJSON'
  pod 'TOWebViewController'
+ pod 'SDWebImage'
 end
