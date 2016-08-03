@@ -24,6 +24,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TOWebViewController-TOWebViewControllerLocalizable.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TOWebViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -32,17 +42,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>32524B511BC60E5054FC1FC5EE6BFE42</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3F1904EA60382B47F4FDABEC0E37D348</key>
+		<key>21C4E87D8A3212C1633E7AEF235EA465</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8305CC54CE6188F35FF58D1395241CA6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8BE8C041F5774EE23EB164F25CC256EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9FBBF70341E08F9FEFE5B3BABAEA00AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
