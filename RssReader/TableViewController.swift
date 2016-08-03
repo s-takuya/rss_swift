@@ -48,4 +48,10 @@ class TableViewController: UITableViewController {
         cell.desc.text = entry.desc
         return cell
     }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let detailViewController = DetailViewController()
+        detailViewController.entry = self.entries[indexPath.row]
+        parent!.navigationController!.pushViewController(detailViewController , animated: true)
+    }
 }
